@@ -1,0 +1,9 @@
+{
+    "getTokenApi": {
+        "serve": "http://m.yitongchou.cn/api/index",
+        "dev": "http://xxxxxxxdev",
+        "test": "http://xxxxxxxxxtest",
+        "beta": "http://xxxxxxxxxxxbeta",
+        "prod": "https://xxxxxxxxxxxxprod"
+    }
+}
