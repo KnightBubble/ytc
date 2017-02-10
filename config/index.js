@@ -3,6 +3,7 @@ var path = require('path')
 
 module.exports = {
   build: {
+    projectName: 'hello',
     env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
@@ -22,22 +23,23 @@ module.exports = {
     bundleAnalyzerReport: process.env.npm_config_report
   },
   dev: {
+    projectName: 'hello',
     env: require('./dev.env'),
     port: 8080,
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-    //   api: {
-    //     filter: '/api',
-    //     target: "http://127.0.0.1:8000/",
-    //     ignorePath: false,
-    //     changeOrigin: false,
-    //     secure: false,
-    //     pathRewrite: {
-    //          '/api/' : '/data/',
-    //     }
-    //   }
+      //   api: {
+      //     filter: '/api',
+      //     target: "http://127.0.0.1:8000/",
+      //     ignorePath: false,
+      //     changeOrigin: false,
+      //     secure: false,
+      //     pathRewrite: {
+      //          '/api/' : '/data/',
+      //     }
+      //   }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
