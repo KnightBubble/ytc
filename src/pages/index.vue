@@ -41,10 +41,9 @@
         },
         created: function () {
             alert('{{getIndexApi}}');
-            return;
             var self = this;
             request
-                .post('{{getIndexApi}}')
+                .get('{{getIndexApi}}')
                 .query({
                     page: 1,
                     pageSize: 10
