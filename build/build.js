@@ -30,7 +30,10 @@ webpack(webpackConfig, function (err, stats) {
     children: false,
     chunks: false,
     chunkModules: false
-  }) + '\n\n')
+  }) + '\n\n', function (){
+      console.log(chalk.cyan('webpack 打包完成')+config.build.projectName)
+      shell.exec('cd dist;zip -r ../' + (config.build.projectName || 'hello') + '.zip ' + './');
+  })
 
   console.log(chalk.cyan('  Build complete.\n'))
   console.log(chalk.yellow(

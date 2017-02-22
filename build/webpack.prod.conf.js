@@ -11,7 +11,7 @@ var env = process.env.NODE_ENV === 'testing' ?
   config.build.env
 
 var apiJson = require('../api/api.json');
-var TEST_ENV = 'prod';
+var TEST_ENV = process.env.TASK_NAME || 'prod';
 var ReplaceBundleStringPlugin = require('replace-bundle-webpack-plugin');
 var webpackConfig = merge(baseWebpackConfig, {
   module: {
