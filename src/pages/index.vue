@@ -40,9 +40,11 @@
         components:{
         },
         created: function () {
+            alert('{{getIndexApi}}');
+            return;
             var self = this;
             request
-                .post('{{getTokenApi}}')
+                .post('{{getIndexApi}}')
                 .query({
                     page: 1,
                     pageSize: 10

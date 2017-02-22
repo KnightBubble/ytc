@@ -42,7 +42,7 @@
   }
   
   .app-content {
-      margin-bottom: 60px;
+      padding-bottom: 60px;
   }
   
   .fade-enter-active {

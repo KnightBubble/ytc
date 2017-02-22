@@ -1,0 +1,91 @@
+{
+  "tcost": null,
+  "status": 200,
+  "message": "成功",
+  "data": {
+    "pageData": [{
+      "planId": "123456",
+      "status": 0,
+      "createTs": 1471102857000,
+      "modifyTs": 1471102857000,
+      "isDelete": 0,
+      "planName": "人人公益大病互助计划",
+      "planTitle": "预存9元，最高可得30万元保障金",
+      "ruleId": "1234",
+      "preDeposit": 100,
+      "limitAmount": 3000000000,
+      "planDetail": null,
+      "headImg": "img/planlistptos.jpg",
+      "memberCnt": null,
+      "totalAmount": null,
+      "ruleMap": {
+        "100": {
+          "ruleId": "1234",
+          "ruleCode": "100",
+          "status": 0,
+          "createTs": 1471105131000,
+          "isDelete": 0,
+          "planId": "123456",
+          "ruleTitle": null,
+          "ruleName": "保障人群",
+          "ruleValue": "18-50岁人群，身体健康",
+          "ruleDesc": "<ol>\n    <li>1.加入年龄：18-50周岁</li>\n    <li>2.保障年龄：18-50周岁，年满51周岁后将自动转入中老年抗癌计划，继续享受保障。</li>\n    <li>\n\t3.为保证公平性，加入者还需要保证加入计划时身体健康，未曾患有以下重大疾病。\n\t<table>\n\t<tbody>\n\t<tr>\n\t<td>肿瘤</td>\n\t<td rowspan=\"4\">包括恶性肿瘤、白血病，但已确诊为良性息肉、囊肿、结节和赘生物且已治愈的除外</td>\n\t<td rowspan=\"2\">&emsp;</td>\n\t</tr>\n\t<tr>\n\t<td>原位癌</td>\n\t</tr>\n\t<tr>\n\t<td>癌前病变</td>\n\t<td></td>\n\t</tr>\n\t<tr>\n\t<td>癌前病变</td>\n\t<td></td>\n\t</tr>\n\t<tr>\n\t<td>心脑血管疾病</td>\n\t<td>心脏病（心功能2级以上）、冠心病（含心绞痛、心肌梗死等）、高血压（2级或以上）、脑血管/主动脉疾病</td>\n\t<td></td>\n\t</tr>\n\t<tr>\n\t<td>慢性疾病</td>\n\t<td>糖尿病、甲亢（未治疗，症状严重）、支气管哮喘（重度或以上）、肝硬化、肾脏疾病</td>\n\t<td></td>\n\t</tr>\n\t<tr>\n\t<td>传染性疾病</td>\n\t<td>病毒性肝炎、艾滋病、梅毒等</td>\n\t<td></td>\n\t</tr>\n\t<tr>\n\t<td>其他</td>\n\t<td>癫痫等精神科疾病、智力发育不全、身体残障等</td>\n\t<td></td>\n\t</tr>\n\t</tbody>\n\t</table>\n    </li>\n    <li>4.认同并承诺遵守《会员公约》及计划条款。</li>\n</ol>",
+          "sort": 0
+        },
+        "101": {
+          "ruleId": "1234",
+          "ruleCode": "101",
+          "status": 0,
+          "createTs": 1471105131000,
+          "isDelete": 0,
+          "planId": "123456",
+          "ruleTitle": null,
+          "ruleName": "保障范围",
+          "ruleValue": "胃癌、肝癌等30种疾病",
+          "ruleDesc": "<p>所有恶性肿瘤（癌症），但下列疾病不可互助：</p>\n<ol>\n<li>(1) 原位癌及癌前病变；</li>\n<li>(2) 相当于Binet分期方案A期程度的慢性淋巴细胞白血病；</li>\n<li>(3) 相当于Ann Arbor分期方案I期程度的何杰金氏病；</li>\n<li>(4) 皮肤癌（不包括恶性黑色素瘤及已发生转移的皮肤病）；</li>\n<li>(5) TNM分期为T1N0M0期或者更轻分期的前列腺癌；</li>\n<li>(6) 感染艾滋病病毒或者患艾滋病期间所患恶性肿瘤。</li>\n</ol>",
+          "sort": 1
+        },
+        "102": {
+          "ruleId": "1234",
+          "ruleCode": "102",
+          "status": 0,
+          "createTs": 1471105131000,
+          "isDelete": 0,
+          "planId": "123456",
+          "ruleTitle": null,
+          "ruleName": "保障额度",
+          "ruleValue": "最高30万元保障",
+          "ruleDesc": "<ol>\n<li>不同年龄段会员可获得的最高互助金额不同，具体如下：</li>\n<table>\n<tr>\n<td>年龄(周岁)</td>\n<td>重度癌症</td>\n<td>低度恶性肿瘤</td>\n</tr>\n<tr>\n<td>18~30</td>\n<td>30万元</td>\n<td>5万元</td>\n</tr>\n<tr>\n<td>31~40</td>\n<td>25万元</td>\n<td>5万元</td>\n</tr>\n<tr>\n<td>41~50</td>\n<td>20万元</td>\n<td>5万元</td>\n</tr>\n</table>\n<li> 低度恶性肿瘤:经医学专家认定属于预后较好、生存期长、治疗费用低的恶性肿瘤</li>\n</ol>",
+          "sort": 2
+        },
+        "103": {
+          "ruleId": "1234",
+          "ruleCode": "103",
+          "status": 0,
+          "createTs": 1471105131000,
+          "isDelete": 0,
+          "planId": "123456",
+          "ruleTitle": null,
+          "ruleName": "分摊规则",
+          "ruleValue": "每次不超过3元，每年约100元",
+          "ruleDesc": "<ol>\n<li>如有会员不幸患癌，其他会员会均摊帮助，单次均摊不超过3元。</li>\n<table>\n<tr>\n<td>会员总数</td>\n<td>均摊金额</td>\n<td>会员互助金</td>\n<td>互助准备金 </td>\n<td>获得保障金</td>\n</tr>\n<tr>\n<td>1万人</td>\n<td>3.0元</td>\n<td>3万元</td>\n<td>27万元</td>\n<td>30万元</td>\n</tr>\n<tr>\n<td>5万人</td>\n<td>3.0元</td>\n<td>15万元</td>\n<td>15万元</td>\n<td>30万元</td>\n</tr>\n<tr>\n<td>10万人</td>\n<td>3.0元</td>\n<td>30万元</td>\n<td>0</td>\n<td>30万元</td>\n</tr>\n<tr>\n<td>30万人</td>\n<td>1.0元</td>\n<td>30万元</td>\n<td>0</td>\n<td>30万元</td>\n</tr>\n<tr>\n<td>100万人</td>\n<td>0.3元</td>\n<td>30万元</td>\n<td>0</td>\n<td>30万元</td>\n</tr>\n</table>\n\n<li>说明：</li>\n<li>(1) 如上表，会员数量越多，单次分摊金额越低。</li>\n<li>(2) 会员账户余额归本人所有，只有发生互助时才会扣除相应金额。</li>\n<li>(3) 因会员数量不足导致筹集的保障金不足30万元时，不足部分由互助准备金补足，确保会员获得足额保障。</li>\n</ol>",
+          "sort": 3
+        },
+        "105": {
+          "ruleId": "1234",
+          "ruleCode": "105",
+          "status": 0,
+          "createTs": 1471105131000,
+          "isDelete": 0,
+          "planId": "123456",
+          "ruleTitle": null,
+          "ruleName": "观察期",
+          "ruleValue": "180天（为防止带病加入)",
+          "ruleDesc": "<ol>\n    <li>设置等待期的目的是为了防止已患病或者即将患病的人加入，即常说的逆选择。</li>\n    <li>在等待期内，若患病不可以申请互助金，但须履行分摊义务。等待期过后，会员如不幸罹患癌症，本计划项下的其他互助会员会为其发起互助。</li>\n</ol>",
+          "sort": 5
+        }
+      }
+    }],
+    "totalCount": 1
+  }
+}

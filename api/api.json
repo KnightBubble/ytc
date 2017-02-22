@@ -1,9 +1,17 @@
 {
-    "getTokenApi": {
-        "serve": "http://m.yitongchou.cn/api/index",
+    "getIndexApi": {
+        "serve": "/data/dynamic.json",
+        "dev": "http://m.yitongchou.cn/api/index",
+        "prod": "http://m.yitongchou.cn/api/index"
+    },    
+    "getDynamicApi": {
+        "serve": "./data/dynamic.json",
+        "dev": "./data/dynamic.json",
+        "prod": "http://m.yitongchou.cn/api/projectProgress/allProjectProgressAndRepliesPage"
+    },
+    "getMutualHelpApi": {
+        "serve": "./data/mutualHelp.json",
         "dev": "http://xxxxxxxdev",
-        "test": "http://xxxxxxxxxtest",
-        "beta": "http://xxxxxxxxxxxbeta",
-        "prod": "https://xxxxxxxxxxxxprod"
+        "prod": "http://m.yitongchou.cn/api/plans/planVoPage"        
     }
 }
