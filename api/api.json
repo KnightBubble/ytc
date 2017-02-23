@@ -1,16 +1,16 @@
 {
     "getIndexApi": {
-        "serve": "/data/dynamic.json",
+        "serve": "http://m.yitongchou.cn/api/index",
         "dev": "http://m.yitongchou.cn/api/index",
         "prod": "http://m.yitongchou.cn/api/index"
     },    
     "getDynamicApi": {
-        "serve": "./data/dynamic.json",
+        "serve": "/api/data/dynamic.json",
         "dev": "./data/dynamic.json",
         "prod": "http://m.yitongchou.cn/api/projectProgress/allProjectProgressAndRepliesPage"
     },
     "getMutualHelpApi": {
-        "serve": "./data/mutualHelp.json",
+        "serve": "/api/data/mutualHelp.json",
         "dev": "http://xxxxxxxdev",
         "prod": "http://m.yitongchou.cn/api/plans/planVoPage"        
     }
