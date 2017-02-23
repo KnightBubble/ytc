@@ -1,15 +1,15 @@
 <template>
-    <div class='index-page' v-if='true'>
-        <mt-swipe  class='swipe' v-if='true'>
+    <div class='index-page'>
+        <mt-swipe class='swipe'>
             <mt-swipe-item v-for="swiper in data.headPic">
-                <img  :src="swiper"/>
+                <img :src="swiper" />
             </mt-swipe-item>
         </mt-swipe>
-        <div class='list' v-for="pageData in data.pageData" v-if='true'>
+        <div class='list' v-for="pageData in data.pageData">
             <p class='title'>{{pageData.title}}<span class='releasePre'>{{pageData.releasePre}}天前</span></p>
             <p class='detailInformation'>{{pageData.detailInformation}}</p>
             <div class='img-box'>
-                <img v-for='img in pageData.images.split(",")'  :src="img" alt="" class='pro-imgs'>
+                <img v-for='img in pageData.images.split(",")' :src="img" alt="" class='pro-imgs'>
             </div>
             <div class='pro-support' v-if='pageData.supportCnt > 0'>
                 <div class='suppor-logo-box'>
@@ -32,32 +32,32 @@
     import request from 'superagent';
     export default {
         name: 'index',
-        data(){
+        data() {
             return {
-                data:{}
+                data: {}
             }
         },
-        components:{
+        components: {
         },
         created: function () {
             var self = this;
             request
-                .get('{{getIndexApi}}')
+                .post('{{getIndexApi}}')
                 .query({
                     page: 1,
                     pageSize: 10
                 })
-                .end(function(err, res){
+                .end(function (err, res) {
                     self.data = res.body.data;
                 });
         },
-        filters:{
-            dealMoney:function(money){
-                return (money/1000);
+        filters: {
+            dealMoney: function (money) {
+                return (money / 1000);
             }
         },
-        computed:{
-            progress: function(){
+        computed: {
+            progress: function () {
                 return 20
             }
         }
@@ -166,4 +166,7 @@
             }
         }
     }
+
+
+
 </style>
