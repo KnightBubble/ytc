@@ -1,6 +1,6 @@
 {
     "getIndexApi": {
-        "serve": "http://m.yitongchou.cn/api/index",
+        "serve": "/api/data/index.json",
         "dev": "http://m.yitongchou.cn/api/index",
         "prod": "http://m.yitongchou.cn/api/index"
     },

@@ -7,6 +7,7 @@ gulp.task('baseConfig', function () {
 gulp.task('serve', function () {
   process.env.TASK_NAME = 'serve'
   require('./build/dev-server.js')
+  require('./build/mock.js');
 })
 
 gulp.task('prod', function () {
