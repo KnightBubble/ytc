@@ -5,7 +5,7 @@
         "prod": "http://m.yitongchou.cn/api/index"
     },
     "getDynamicApi": {
-        "serve": "http://m.yitongchou.cn/api/projectProgress/allProjectProgressAndRepliesPage",
+        "serve": "/debug/api/projectProgress/allProjectProgressAndRepliesPage",
         "dev": "./data/dynamic.json",
         "prod": "http://m.yitongchou.cn/api/projectProgress/allProjectProgressAndRepliesPage"
     },

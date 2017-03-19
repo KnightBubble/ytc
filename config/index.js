@@ -41,6 +41,16 @@ module.exports = {
         },
         onProxyReq: function (proxyReq, req, res) {},
         onProxyRes: function (proxyRes, req, res) {}
+      },
+      prodProxy: {
+        filter: '/debug',
+        target: "http://m.yitongchou.cn",
+        ignorePath: false,
+        changeOrigin: false,
+        secure: false,
+        pathRewrite: {
+          '^/debug/api': '/api/',
+        },
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
