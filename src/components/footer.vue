@@ -38,7 +38,7 @@ var tabLink = [{
     path:'/faqi',
     selected:'发起'
 },{
-    path:'/my',
+    path:'/mine',
     selected:'我'
 }]
 export default  {

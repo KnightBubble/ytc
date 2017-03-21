@@ -6,7 +6,7 @@ Vue.use(Router)
 
 const Index = resolve => require(['../pages/index.vue'], resolve);
 const Dynamic = resolve => require(['../pages/dynamic.vue'], resolve);
-
+const Mine = resolve => require(['../pages/mine.vue'], resolve);
 export default new Router({
   routes: [{
     path: '/',
@@ -20,5 +20,9 @@ export default new Router({
     path: '/dynamic',
     name: 'Dynamic',
     component: Dynamic
+  }, {
+    path: '/mine',
+    name: 'Mine',
+    component: Mine
   }]
 })
